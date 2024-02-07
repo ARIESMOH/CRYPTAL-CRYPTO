@@ -1,0 +1,28 @@
+body{
+  background: url(/cryptex/assets/images/forex.jpg);
+}
+button {
+  margin-left: 600px;
+  margin-top: 20px;
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  background-color: black;
+  cursor: pointer;
+  border: solid;
+  color: white;
+  transition: all 0.4s;
+}
+
+button:hover {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border-color: rgb(46, 164, 79);
+  box-shadow: 5px 5px 10px rgb(46, 164, 79);
+}
+
+button:active {
+  background-color: turquoise;
+  border-color: turquoise;
+  color: white;
+}
